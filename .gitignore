@@ -1,0 +1,27 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# LazyVim data directory (plugins installed)
+lazy-lock.json
+
+# Neovim cache
+**/.DS_Store
+*.log
+
+# Local settings (machine-specific)
+.luarc.json
+
+# Backup files
+*.swp
+*.swo
+*~
+
+# Plugin data (will be re-downloaded)
+# Note: we keep lazy-lock.json for version pinning
+
